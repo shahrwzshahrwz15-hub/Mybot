@@ -6,6 +6,8 @@ from deep_translator import GoogleTranslator
 
 BOT_TOKEN = "8640548442:AAG59mCYsBdVaCcDbLsAmiuL-3CNbIJtZno"
 bot = telebot.TeleBot(BOT_TOKEN)
+import google.generativeai as genai
+genai.configure(api_key="AQ.Ab8RN6KNkjWdRjcHWA5ZA1cftFLeQQJMmhQkz7FJB_1ZNOkc-g")
 
 signature = (
     "\n\n───────────────────\n"
