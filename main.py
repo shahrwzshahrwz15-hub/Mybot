@@ -3,6 +3,10 @@ import telebot
 import speech_recognition as sr
 from moviepy.editor import VideoFileClip
 from deep_translator import GoogleTranslator
+pyTelegramBotAPI
+google-generativeai
+yt-dlp
+moviepy
 
 BOT_TOKEN = "8640548442:AAG59mCYsBdVaCcDbLsAmiuL-3CNbIJtZno"
 bot = telebot.TeleBot(BOT_TOKEN)
